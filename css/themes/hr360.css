@@ -1,0 +1,80 @@
+/* JQM Demos custom CSS */
+/*================================Header====================================*/
+/* Header */
+.ui-bar-a,.ui-page-theme-a .ui-bar-inherit,html .ui-bar-a .ui-bar-inherit,html .ui-body-a .ui-bar-inherit,html body .ui-group-theme-a .ui-bar-inherit{
+	/* IE10 Consumer Preview */
+	background-image: -ms-linear-gradient(bottom, #111111 0%, #1D2C44 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(bottom, #111111 0%, #1D2C44 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(bottom, #111111 0%, #1D2C44 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #111111), color-stop(1, #1D2C44));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(bottom, #111111 0%, #1D2C44 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to top, #111111 0%, #1D2C44 100%);
+	border-color:#ddd;color:#fff;text-shadow:none;font-weight:700}
+
+
+.iconstyle{background:transparent; border:none;}
+.subtitle{background:#0a5e9b; text-align:center; color:#ffffff; padding:0.5em; float:left; width:100%;}
+.sbsleft{width:40%; float:left; text-align:left; color:#ffffff;}
+.sbsrite{width:40%; float:right; padding-right:18px; text-align:right; color:#ffffff;}
+
+
+/*=============================================Content=================================================*/
+.ui-grid-c {text-align:center; text-shadow:none; color:#ffffff;}
+.ui-grid-c p{padding:0; margin:0;}
+.ui-grid-c .ui-block-a .ui-btn{padding:0; border:none; line-height:0;}
+.ui-grid-c .ui-block-b .ui-btn{padding:0; border:none; line-height:0;}
+.ui-grid-c .ui-block-c .ui-btn{padding:0; border:none; line-height:0;}
+.ui-grid-c .ui-block-d .ui-btn{padding:0; border:none; line-height:0;}
+.ui-grid-c img{width:100%;}
+
+.menupage{background:#039 url(../../images/bg.jpg); background-size:cover;}
+.subpage{background:#d7d9de; background-size:cover;}
+[class*=ui-block-]>.ui-btn,[class*=ui-block-]>.ui-select,[class*=ui-block-]>.ui-checkbox,[class*=ui-block-]>.ui-radio,[class*=ui-block-]>button.ui-btn-inline,[class*=ui-block-]>button.ui-btn-icon-notext{margin-right:.7125em;margin-left:.7125em}
+
+.ui-bar-a,.ui-page-theme-a .ui-bar-inherit,html .ui-bar-a .ui-bar-inherit,html .ui-body-a .ui-bar-inherit,html body .ui-group-theme-a .ui-bar-inherit{border:none;}
+
+.ui-btn-corner-all,.ui-btn.ui-corner-all,.ui-slider-track.ui-corner-all,.ui-flipswitch.ui-corner-all,.ui-li-count{-webkit-border-radius:.7em;border-radius:.7em; background:transparent;}
+
+
+.ui-btn-corner-all:hover,.ui-btn.ui-corner-all:hover,.ui-slider-track:hover.ui-corner-all:hover,.ui-flipswitch.ui-corner-all:hover,.ui-li-count:hover{-webkit-border-radius:.7em;border-radius:.7em; background:transparent;}
+
+
+/*=================================table===================================*/
+.ntable tr:first-child th:first-child {border-top-left-radius: 5px;}
+.ntable tr:first-child th:last-child {border-top-right-radius: 5px;}
+
+.ntable tr:last-child td:first-child {border-bottom-left-radius: 5px;}
+.ntable tr:last-child td:last-child {border-bottom-right-radius: 5px;}
+.ntable {margin-bottom:1em}
+.ntable .toright{text-align:right; width:auto;}
+
+
+.ntable th{border-bottom: 1px solid #d6d6d6; background:#00507e; text-shadow:none; font-weight:normal; color:#ffffff;}
+.ntable tr:nth-child(odd){background:#f1f1f1;}
+.ntable tr:nth-child(even){background:#e7e7e7;}
+
+.ttable tr:first-child td:first-child {border-top-left-radius: 5px;}
+.ttable tr:first-child td:last-child {border-top-right-radius: 5px;}
+
+.ttable tr:last-child td:first-child {border-bottom-left-radius: 5px;}
+.ttable tr:last-child td:last-child {border-bottom-right-radius: 5px;}
+.ttable {margin-bottom:1em}
+
+.ttable th{color: #666; text-shadow:none; font-weight:normal; font-size:0.85em; padding-top:8px; padding-left:8px; min-width:90px;}
+.ttable tr:first-child th:first-child {border-top-left-radius: 5px;}
+.ttable tr:last-child th:first-child {border-bottom-left-radius: 5px;}
+.ttable tr:nth-child(odd){background:#fff; border-bottom:1px solid #cccccc;}
+.ttable tr:nth-child(even){background:#fff; border-bottom:1px solid #cccccc;}
+
+.ttable .photo img{width:100%; max-width:130px; }
+
+
+.ui-table-columntoggle-btn {display: none !important;}
+
+/*=================================content-wrapper=============================*/
+.ui-content{border-width:0;overflow:visible;overflow-x:hidden;padding:0.8em}

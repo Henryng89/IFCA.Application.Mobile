@@ -1,0 +1,39 @@
+﻿<div id="template" data-role="page" class="subpage" data-theme="a">
+
+    <div data-role="header">
+        <a href="#" class="ui-btn ui-corner-all ui-icon-carat-l ui-btn-icon-notext iconstyle btnBack" >Back Icon</a>
+
+        <h1>Template page</h1>
+
+        <a data-transition="slide" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext iconstyle btnHome">Home Icon</a>
+
+        <div class="subtitle">Welcome, to IFCA template</div>
+    </div>
+
+    <div data-role="content" data-theme="a">
+
+    </div>
+
+    <!--Please seperate the js code into different js file so that can take advantage of browser caching for faster loading time-->
+    <!--<script src="js/template.js"></script>-->
+
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+
+
+
+        $(document).one('pagecreate', function () {
+
+            $(".btnBack").click(function () {
+                $.mobile.navigate("menu.html", { transition: "slide", info: "info about the #bar hash" });
+            });
+
+
+        });
+
+    </script>
+
+
+</div>
+
+
